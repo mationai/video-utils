@@ -15,5 +15,5 @@ video-play-thumb.py VIDEO FRAME [output image width=720]
 
 This will generate a video preview image from either an image or a video. The preview indication is the "Play" triangle icon in the center of image. Sample output:
 
-![](out-yellow-720thumb.jpg "Embedded Video Preview Image")
+![](assets/out-yellow-720thumb.jpg "Embedded Video Preview Image")
 
