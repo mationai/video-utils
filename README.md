@@ -1,5 +1,7 @@
 ## Python Command Line Video Utilities
 
+Python Command Line Utilities for videos
+
 ### Generate an Embedded Video preview image that works in markdown
 
 Currently, to embed a video such as youtube video, you need to include the iframe into the html. This is a problem in markdown as iframes are not allowed.
