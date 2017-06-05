@@ -18,6 +18,7 @@ if len(sys.argv) < 2:
 
 filepath = sys.argv[1]
 filename, ext = filepath.split('.')
+ext = ext.lower()
 imgexts = 'bmp dib jpeg jpg jpe jp2 png webp pbm pgm ppm sr ras tiff tif'.split()
 
 if ext not in imgexts: 
