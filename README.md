@@ -6,7 +6,7 @@ Python Command Line Utilities for videos
 
 Currently, to embed a video such as youtube video, you need to include the iframe into the html. This is a problem in markdown as iframes are not allowed.
 
-[Stack Overflow](https://stackoverflow.com/questions/11804820/embed-a-youtube-video) has a nice solution around it. Instead of inserting the iframe, insert a video preview image to indicate to user it is a video. The image will however be a link to the youtube site instead of embedded in the page. It is a nice hack. However, it requires the user to capture a screen shot of the video.  An easier way is to generate that image with a command line utility instead.
+[Stack Overflow](https://stackoverflow.com/questions/11804820/embed-a-youtube-video) has a nice solution around it. Instead of inserting the iframe, insert a video preview image to indicate to user it is a video. The image will however be a link to the youtube site instead of embedded in the page. It is a nice hack. However, it requires the user to capture a screen shot of the video.  An easier way is to generate that image with a command line utility instead. After not having much luck finding such tool, I decide to make one as it is pretty simple.
 
 #### Requirements
 `cv2` and `numpy`
