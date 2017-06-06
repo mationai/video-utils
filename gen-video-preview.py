@@ -4,9 +4,9 @@ import sys, cv2
 import numpy as np
 
 menu = ''' Usage:
-video-play-thumb.py IMAGE [output image width=720]
+gen-video-preview.py IMAGE [output image width=720]
  -OR-
-video-play-thumb.py VIDEO FRAME [output image width=720]
+gen-video-preview.py VIDEO FRAME [output image width=720]
 '''
 
 out_w = 720
@@ -55,4 +55,4 @@ pts = ((left, h//2+tri_h//2), (left, h//2-tri_h//2), (right, h//2))
 cv2.fillPoly(overlay, np.int32([pts]), (255,255,255))
 
 out = cv2.addWeighted(img, 1, np.uint8(overlay), 0.9, 0)
-cv2.imwrite("%s-%dthumb.%s"%(filename,out_w,ext), out)
+cv2.imwrite("%s-preview%d.%s"%(filename,out_w,ext), out)
