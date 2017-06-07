@@ -32,7 +32,7 @@ Eg.
 gen_preview.py path/to/video.mp4 1
 ```
 
-This will generate a video preview image and prints out the markdown linking syntax.
+This will generate a video preview image and also print out the markdown linking syntax.
 
 ![](assets/out-yellow-preview720.jpg "Embedded Video Preview Image")
 
