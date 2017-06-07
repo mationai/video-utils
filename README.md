@@ -35,11 +35,9 @@ gen_preview.py path/to/video.mp4 1
 This will generate a video preview image and also print out the markdown linking syntax.
 
 ![](assets/out-yellow-preview720.jpg "Embedded Video Preview Image")
-
 *Generic (non-youtube) video preview*
 
 ![](assets/out-yellow-preview720.png "Embedded Video Preview Image")
-
 *Youtube video preview*
 
 ### Credits
