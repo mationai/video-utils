@@ -36,7 +36,11 @@ This will generate a video preview image and prints out the markdown linking syn
 
 ![](assets/out-yellow-preview720.jpg "Embedded Video Preview Image")
 
+*Generic (non-youtube) video preview*
+
 ![](assets/out-yellow-preview720.png "Embedded Video Preview Image")
+
+*Youtube video preview*
 
 ### Credits
 Youtube icon source: https://github.com/halgatewood/youtube-thumbnail-enhancer
