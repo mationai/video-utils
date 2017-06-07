@@ -1,6 +1,7 @@
 #! /usr/bin/env python
 
 import sys, cv2
+from os import path
 from PIL import Image
 from gen_preview import preview_img_name_ext, markdown_text
 
@@ -17,7 +18,10 @@ if __name__ == '__main__':
     cv2.imwrite(filepath, img)
     img = Image.open(filepath)
 
-    play = Image.open("assets/play-mq.png")
+
+    icon = path.join(path.dirname(path.realpath(__file__)), "assets/play-mq.png")
+    play = Image.open(icon)#"assets/play-mq.png")
+    # play = Image.open("assets/play-mq.png")
     img.paste(play, (left, top), play)
     img.save(filepath)
 

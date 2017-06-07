@@ -2,6 +2,7 @@
 
 Python Command Line Utilities for videos
 
+---
 ## Generate a Youtube Video preview image that works in markdown
 
 Currently, to embed a video such as youtube video, you need to include the iframe into the html. This is a problem in markdown as iframes are not allowed.
@@ -43,3 +44,8 @@ Youtube video preview
 ### Credits
 Youtube icon source: https://github.com/halgatewood/youtube-thumbnail-enhancer
 (Icon seems a bit different than current youtube one. If anyone has a better source, please let me know.)
+
+
+---
+
+Watch the repo if you like to stay up to date on it. I have one other useful video util in mind to add soon.
