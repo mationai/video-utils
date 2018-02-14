@@ -6,9 +6,9 @@ import numpy as np
 
 def menu(kind=''):
     return '''Usage:
-gen_%spreview.py IMAGE [output image width=720]
+gen_%spreview.py <image> [image-out-width=720]
  -OR-
-gen_%spreview.py VIDEO FRAME [output image width=720]
+gen_%spreview.py <video> <frame #> [image-out-width=720]
 Eg:
 gen_%spreview.py path/to/video.mp4 1
 ''' % (kind, kind, kind)

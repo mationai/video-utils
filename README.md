@@ -16,9 +16,9 @@ However, to make the preview image look like a video, you need to capture a scre
 
 ### Usage
 ``` 
-gen_youtube_preview.py IMAGE [output image width=720]
+gen_youtube_preview.py <image> [image-out-width=720]
  -OR-
-gen_youtube_preview.py VIDEO FRAME [output image width=720]
+gen_youtube_preview.py <video> <frame #> [image-out-width=720]
 Eg.
 gen_youtube_preview.py path/to/video.mp4 1
 ```
@@ -26,9 +26,9 @@ gen_youtube_preview.py path/to/video.mp4 1
 or for generic (non-youtube) play triangle icon:
 
 ``` 
-gen_preview.py IMAGE [output image width=720]
+gen_preview.py <image> [image-out-width=720]
  -OR-
-gen_preview.py VIDEO FRAME [output image width=720]
+gen_preview.py <video> <frame #> [image-out-width=720]
 Eg.
 gen_preview.py path/to/video.mp4 1
 ```
